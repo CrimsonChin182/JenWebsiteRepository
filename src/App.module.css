@@ -1,0 +1,39 @@
+@import "./vars.css";
+
+.App {
+    background-color: var(--color-bg);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0 auto; /* Center the container */
+    padding: 0 50px;
+}
+.Contact {
+    margin: 0 auto; /* Center the container */
+}
+
+@media (max-width: 1200px) {
+    .App {
+      padding: 0 40px;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .App {
+      padding: 0 30px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .App {
+      padding: 0 20px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .App {
+      padding: 0 10px;
+    }
+  }

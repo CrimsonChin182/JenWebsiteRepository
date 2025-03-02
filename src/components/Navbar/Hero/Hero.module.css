@@ -1,0 +1,113 @@
+@import "../../../vars.css";
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 49px;
+    z-index: 1;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: var(--color-nav);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+}
+
+.title {
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 33px;
+    font-family: var(--font-roboto);
+
+    
+
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+     
+}
+
+.Img {
+    float: right;
+    margin-left: 7%;
+    width: 50%;
+    
+    height: auto;
+}
+
+.description {
+    font-size: 1.7rem;
+    line-height: 1.6;
+    font-family: var(--font-roboto);
+    overflow: hidden;
+    margin-bottom: 52px;
+    text-shadow: 2px 2px 5px rgba(128, 0, 128, 0.2);
+}
+
+.contactBtn {
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 17px 26px;
+    box-shadow: 0 4 8px 0 rgba(0, 0, 0, 0.4);
+    text-shadow: 2px 2px 5px rgba(88, 1, 88, 0.2);
+
+    transition: transform 0.3s;
+}
+
+.contactBtn:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 830px) {
+    .container {
+        flex-direction: column-reverse;
+        
+    }
+
+    .content {
+        align-items: center;
+        
+    }
+
+    .description {
+        font-size: 1.0rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 430px) {
+    .container {
+        flex-direction: column-reverse;
+        
+    }
+
+    .content {
+        align-items: center;
+        
+    }
+
+    .description {
+        font-size: 0.8rem;
+    }
+
+    
+}
