@@ -37,7 +37,7 @@
     float: right;
     margin-left: 7%;
     width: 50%;
-    
+    image-orientation: from-image;
     height: auto;
 }
 
