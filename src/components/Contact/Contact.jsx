@@ -11,7 +11,12 @@ export const Contact = () => {
                 <img src={"/emailIcon.png"} alt="Email Icon" loading="lazy"/>
                 <a href="mailto:princessincommandcrafts@gmail.com">princessincommandcrafts@gmail.com</a>
             </li>
+            <li className={styles.link}>
+                <img src={"/emailIcon.png"} alt="Email Icon" loading="lazy"/>
+                <a href="mailto:kriskreations2025@gmail.com">kriskreations2025@gmail.com</a>
+            </li>
         </ul>
+        
     </footer>
     );
 }

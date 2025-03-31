@@ -12,14 +12,42 @@
     color: var(--color-nav);
 }
 
+.row {
+    align-items: row;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 49px;
+    z-index: 1;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: var(--color-nav);
+}
+
 .content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     color: var(--color-text);
     z-index: 1;
+    margin-bottom: 3rem;
 }
-
+.directionsBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .directionsBtn:hover {
+    background-color: #0056b3;
+  }
 .title {
     font-size: 72px;
     font-weight: 900;
@@ -33,9 +61,17 @@
      
 }
 
-.Img {
+.imgJen {
     float: right;
     margin-left: 7%;
+    width: 50%;
+    image-orientation: from-image;
+    height: auto;
+}
+
+.imgKris {
+    float: left;
+    margin-right: 7%;
     width: 50%;
     image-orientation: from-image;
     height: auto;
@@ -51,18 +87,31 @@
 }
 
 .contactBtn {
-    text-decoration: none;
-    background-color: var(--color-primary);
+    background-color: transparent; /* Makes the background transparent */
+    border: none; /* Removes the border */
     color: var(--color-text);
-    border-radius: 100px;
-    font-weight: 600;
-    font-size: 30px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 0.8rem;
     margin-bottom: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
     padding: 17px 26px;
-    box-shadow: 0 4 8px 0 rgba(0, 0, 0, 0.4);
     text-shadow: 2px 2px 5px rgba(88, 1, 88, 0.2);
+    overflow: hidden;
+}
 
-    transition: transform 0.3s;
+.contactDiv {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    justify-content: left;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-primary);
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 .contactBtn:hover {
