@@ -33,6 +33,21 @@ const images = [
     { src: "/img33-min.jpg", category: "bagDecoration" },
     { src: "/img34-min.jpg", category: "bagDecoration" },
     { src: "/img35-min.jpg", category: "bagDecoration" },
+    { src: "/img36.jpg", category: "wreathDecoration" },
+    { src: "/img37.jpg", category: "shelfDecoration" },
+    { src: "/img38.jpg", category: "wreathDecoration" },
+    { src: "/img39.jpg", category: "shelfDecoration" },
+    { src: "/img40.jpg", category: "wallDecoration" },
+    { src: "/img41.jpg", category: "shelfDecoration" },
+    { src: "/img42.jpg", category: "wallDecoration" },
+    { src: "/img43.jpg", category: "wallDecoration" },
+    { src: "/img44.jpg", category: "wreathDecoration" },
+    { src: "/img45.jpg", category: "wreathDecoration" },
+    { src: "/img46.jpg", category: "wallDecoration" },
+    { src: "/img47.jpg", category: "wallDecoration" },
+    { src: "/img48.jpg", category: "wallDecoration" },
+    { src: "/img49.jpg", category: "wallDecoration" },
+    { src: "/img50.jpg", category: "shelfDecoration" },
 ];
 
 const preloadImages = (urls) => {
