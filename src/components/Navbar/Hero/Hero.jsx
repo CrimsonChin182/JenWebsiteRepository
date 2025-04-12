@@ -28,7 +28,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <p className={styles.description}>
             <img className={styles.imgKris} src={"/letterKDecal.jpg"}/>
-            Kris started her sewing hobby approximately 5 years ago. Currently she sews bowl cozies, drawstring bags, tote bags in various sizes, pillow covers, aprons, pillow cases, nesting baskets, and jar openers. Kris is known for her sewing creations being given as gifts to family, friends, and care givers. She is now elevating to the next adventure in sewing and joining up with Princess in Command Crafts to see where this partnership may take her sewing hobby!
+            Kris started her sewing hobby around 2000. Currently she sews bowl cozies, drawstring bags, tote bags in various sizes, pillow covers, aprons, pillow cases, nesting baskets, and jar openers. Kris is known for her sewing creations being given as gifts to family, friends, and care givers. She is now elevating to the next adventure in sewing and joining up with Princess in Command Crafts to see where this partnership may take her sewing hobby!
                 </p>
       </div>
     
